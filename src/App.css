@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+*{
+    min-width: min-content;
+}
+body{
+    background-color:lightgrey ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#volver{
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.tickets{
+    background-color: whitesmoke;
+    width: 90%;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border-color: gray;
+    border-width: 1px;
 }
 
-.App-link {
-  color: #61dafb;
+.centrar{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flechaD{
+    width: 20px;
+    height: 20px;
+    border-color:  rgb(255, 82, 82) rgb(255, 82, 82) transparent transparent;
+    border-width: 3px;
+    border-style: solid;
+    transform: rotate(45deg);
+}
+
+.flechaI{
+    width: 20px;
+    height: 20px;
+    border-color:  transparent transparent rgb(255, 82, 82) rgb(255, 82, 82);
+    border-width: 3px;
+    border-style: solid;
+    transform: rotate(45deg);
+    display: inline-block;
+}
+
+h5{
+    display: inline-block;
+}
+
+.nuevo{
+    background-color: rgb(255, 82, 82);
+    color:whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 5px;
+    padding: 0 5px 0 5px;
+}
+
+.respondido{
+    background-color: rgb(128, 82, 255);
+    color:whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 5px;
+    padding: 0 5px 0 5px;
+}
+
+.subject{
+    font-weight: bold;
+}
+
+.from ,.date{
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+
+figure{  
+    position:relative;
+}
+
+img{
+    position:absolute;
+    top:250px;
+    left: 40%;  
 }
